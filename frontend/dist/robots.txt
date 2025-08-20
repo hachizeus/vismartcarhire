@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://Vismart Car Hire.com/sitemap.xml
