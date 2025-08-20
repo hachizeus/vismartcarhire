@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "npm run type-check && npm run build-only",
-    "build-only": "vite build",
+    "build-only": "npx --yes vite build",
     "type-check": "tsc --noEmit",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
