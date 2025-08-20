@@ -2,7 +2,7 @@ services:
   - type: web
     name: vismartcarhire
     env: static
-    buildCommand: cd frontend && npm ci && npx --yes vite build
+    buildCommand: cd frontend && npm ci && NODE_OPTIONS='--max-old-space-size=4096' npm run build:prod
     staticPublishPath: ./frontend/dist
     routes:
       - type: rewrite

@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "npm run type-check && npm run build-only",
     "build-only": "npx --yes vite build",
+    "build:prod": "node ./node_modules/vite/bin/vite.js build",
     "type-check": "tsc --noEmit",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
