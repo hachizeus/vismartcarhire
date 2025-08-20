@@ -4,7 +4,7 @@
   "description": "Vismart Car Hire - Premium Car Rental Services",
   "scripts": {
     "install": "cd frontend && npm install",
-    "build": "cd frontend && npx vite build",
+    "build": "cd frontend && npm install && npm run build",
     "start": "cd frontend && npm run dev"
   },
   "engines": {
